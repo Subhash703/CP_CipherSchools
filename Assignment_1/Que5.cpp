@@ -28,6 +28,11 @@ void segregateArray(vector<int> &vec)
         }
     }
 }
+/*
+    -> The brute force technique is to count the 0s and 1s and then fill the 0s and 1s => O(n) 
+    -> I'm using the 2 pointer approach which is the best way to solve this in O(n) time and O(1) space complexity
+    
+*/
 
 int main()
 {
