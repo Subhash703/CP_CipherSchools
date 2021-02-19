@@ -90,8 +90,11 @@ int main()
 {
     /*
             10
+          /    \
         5       12
+      /   \       \
     7       9       9
+                  /
                 11
     */
     TreeNode *root = new TreeNode(10);
