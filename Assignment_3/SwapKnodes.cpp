@@ -16,8 +16,6 @@ public:
         Node(0);
     }
 };
-//
-// Swap Kth node from beginning with Kth node from end in a Linked List
 int getSize(Node *head)
 {
     Node *curr = head;
